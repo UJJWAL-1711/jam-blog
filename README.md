@@ -22,3 +22,11 @@ As mentioned, these files are here to help get started with a DevProjects challe
 ## Tutorial
 
 You can [watch this video](https://youtu.be/4wD00RT6d-g) to see how Kevin uses Eleventy, Netlify, and Netlify CMS to create a full-featured blog site built entirely with static files.
+
+{{this injects title into the page from the metadata from frontmatter}} -->
+this takes the content from index.njk and also the meta data from the front-matter 
+     base file takes is a template 
+     can extract the header component from index and convert it into a seperate header.njk file in this 
+    folder and then inculde it in this file {{include 'header.njk'}} 
+     safe allows html format rendering 
+     also you can make components and putthem in includes folder itself
